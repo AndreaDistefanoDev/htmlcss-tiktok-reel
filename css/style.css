@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	
+	border: 1px dashed red;
 }
 
 body {
@@ -82,11 +82,33 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	.number{
+		color: white;
+		margin-bottom: 1rem;
+		font-weight: 600;
+	}
+	
+	
+
+	
 	img{
 		border: 1px solid white;
 		border-radius: 100%;
 		width: 50px;
+		margin-bottom: 1rem;
+		
 	}
+	.icon{
+		color: white;
+		font-size: 30px;
+		font-weight: 700;
+	}
+
+
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
